@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,30 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.navbar{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top:0;
+  height:60px;
+  background-color: yellow;
+}
+.sidebar{
+  position: fixed;
+  left: 0;
+  top: 60px;
+  bottom: 0;
+  width: 240px;
+  background-color: bisque;
+  z-index: 100;
+}
+.footer{
+  position: fixed;
+  left: 240px;
+  bottom: 0;
+  right: 0;
+  background-color: chocolate;
 }

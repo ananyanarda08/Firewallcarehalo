@@ -1,0 +1,6 @@
+.mainWrapper{
+    position: relative;
+    top:60px;
+    left: 240px;
+    z-index: 99;
+}
